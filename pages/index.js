@@ -39,7 +39,7 @@ export default function Home() {
         <img
           src="squirrel-kung-fu-large.jpg"
           alt="Squirrel kung fu large"
-          width="300"
+          width="400"
         />
       </div>
 
