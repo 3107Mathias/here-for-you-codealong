@@ -19,15 +19,28 @@ export default function Home() {
       </div>
 
       <div>
-        <div style={{ fontSize: '30px' }}>and a chipmunk with corn 🌽</div>
+        <div style={{ fontSize: '30px' }}>
+          and a chipmunk with corn{' '}
+          <span aria-label="A corn" role="img">
+            🌽
+          </span>
+        </div>
 
-        <img src="chipmunk-with-corn-large.jpg" />
+        <img
+          src="chipmunk-with-corn-small.jpg"
+          alt="Chipmunk with corn small"
+          width="300"
+        />
       </div>
 
       <div>
         <div style={{ fontSize: '50px' }}>here's a squirrel 🥋</div>
 
-        <img src="squirrel-kung-fu-large.jpg" />
+        <img
+          src="squirrel-kung-fu-large.jpg"
+          alt="Squirrel kung fu large"
+          width="300"
+        />
       </div>
 
       <div>
